@@ -1,0 +1,48 @@
+body {
+    background-color: #1c1c1c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rectangle {
+    height: 140px;
+    width: 270px;
+    background-color: #bdeb3c;
+    border-radius: 7px;
+    position: absolute;
+    top: 180px;
+    transform: rotate(10deg);
+}
+
+.rectangle-2 {
+    height: 140px;
+    width: 270px;
+    border-radius: 7px;
+    position: absolute;
+    top: 180px;
+    transform: rotate(-7deg);
+    z-index: 10;
+    background: rgb(74,27,128);
+    background: linear-gradient(144deg, rgba(74,27,128,1) 0%, rgba(57,44,66,1) 32%, rgba(48,47,47,1) 73%, rgba(73,81,55,1) 85%, rgba(137,170,75,1) 98%);
+}
+
+.position-text {
+    position: absolute;
+    bottom: 10%;
+}
+
+.position-text h1 {
+    color: #dfdfdf;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.position-text p {
+    color: #b5b5b5;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.btn-color {
+    background-color: #bdeb3c;
+    font-weight: 600;
+}
