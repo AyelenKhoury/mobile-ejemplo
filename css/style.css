@@ -27,7 +27,7 @@ body {
 
 .position-text {
     position: absolute;
-    bottom: 10%;
+    bottom: 4%;
 }
 
 .position-text h1 {
@@ -45,4 +45,8 @@ body {
 .btn-color {
     background-color: #bdeb3c;
     font-weight: 600;
+}
+
+span {
+    text-decoration: underline wavy #bdeb3c;
 }
